@@ -2,33 +2,10 @@
 # Primitive Jobs
 ###################
 
-# Pre-sapient
-
-alicemod_pre_sapient = {
-	category = worker
-	is_capped_by_modifier = no
-	clothes_texture_index = 2
-	contributes_to_diplo_weight = no
-
-	possible_precalc = can_fill_worker_job
-
-	planet_modifier = {
-	}
-
-	resources = {
-		category = planet_farmers
-	}
-
-	weight = {
-		weight = 9000
-	}
-}
-
 # Primitives
 
 alicemod_hunter_gatherer = {
 	category = worker
-	is_capped_by_modifier = no
 	clothes_texture_index = 2
 
 	possible_pre_triggers = {
@@ -70,7 +47,6 @@ alicemod_hunter_gatherer = {
 
 alicemod_peasant = {
 	category = worker
-	is_capped_by_modifier = no
 	building_icon = building_primitive_farm
 	clothes_texture_index = 2
 
