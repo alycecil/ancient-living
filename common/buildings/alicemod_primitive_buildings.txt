@@ -17,9 +17,10 @@ building_alicemod_crude_huts = {
 	planet_modifier = {
 		job_alicemod_peasant_add = 4
 		job_alicemod_primitive_noble_add = 1
+		job_alicemod_hunter_gatherer_add = 4
 		planet_amenities_add = 5
-		planet_housing_add = 4
-		planet_crime_add = 1
+		planet_housing_add = 18
+		planet_crime_add = 5
 		planet_max_buildings_add = 1
 	}
 
@@ -83,9 +84,8 @@ building_alicemod_primitive_dwellings = {
 	}
 	
 	planet_modifier = {
-		planet_housing_add = 6
+		planet_housing_add = 16
 		planet_crime_add = 1
-		job_alicemod_peasant_add = 4
 		job_alicemod_hunter_gatherer_add = 4
 		job_alicemod_primitive_noble_add = 1
 	}
@@ -111,16 +111,6 @@ building_alicemod_primitive_dwellings = {
 			job_maintenance_drone_add = 1
 		}
 	}
-
-	resources = {
-		category = planet_buildings
-		cost = {
-			minerals = 200
-		}
-		upkeep = {
-			energy = 1
-		}
-	}
 	
 	triggered_desc = {
 		trigger = {
@@ -135,6 +125,16 @@ building_alicemod_primitive_dwellings = {
 			owner = { is_gestalt = no }
 		}
 		text = job_clerk_effect_desc
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 200
+		}
+		upkeep = {
+			energy = 1
+		}
 	}
 }
 
@@ -174,6 +174,40 @@ building_alicemod_stone_palace = {
 		}
 	}
 	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_clerk_add = 1
+		}
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		modifier = {
+			job_maintenance_drone_add = 1
+		}
+	}
+	
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		text = job_maintenance_drone_effect_desc
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		text = job_clerk_effect_desc
+	}
+	
 }
 
 building_alicemod_primitive_factory = {
@@ -205,10 +239,44 @@ building_alicemod_primitive_factory = {
 			energy = 1
 		}
 	}
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_clerk_add = 1
+		}
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		modifier = {
+			job_maintenance_drone_add = 1
+		}
+	}
+	
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		text = job_maintenance_drone_effect_desc
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		text = job_clerk_effect_desc
+	}
 }
 
 building_alicemod_primitive_mine = {
-	base_cap_amount = 1
+	base_cap_amount = 8
 	base_buildtime = 400
 	can_demolish = yes
 	can_be_ruined = no
@@ -234,6 +302,40 @@ building_alicemod_primitive_mine = {
 	}
 
 	upgrades = {
+	}
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_clerk_add = 1
+		}
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		modifier = {
+			job_maintenance_drone_add = 1
+		}
+	}
+	
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		text = job_maintenance_drone_effect_desc
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		text = job_clerk_effect_desc
 	}
 }
 
@@ -265,6 +367,40 @@ building_alicemod_primitive_power_plant = {
 		upkeep = {
 			energy = 1
 		}
+	}
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_clerk_add = 1
+		}
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		modifier = {
+			job_maintenance_drone_add = 1
+		}
+	}
+	
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		text = job_maintenance_drone_effect_desc
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		text = job_clerk_effect_desc
 	}
 }
 
@@ -298,10 +434,44 @@ building_alicemod_primitive_farm = {
 		}
 	}
 	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_clerk_add = 1
+		}
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		modifier = {
+			job_maintenance_drone_add = 1
+		}
+	}
+	
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		text = job_maintenance_drone_effect_desc
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		text = job_clerk_effect_desc
+	}
+	
 }
 
 building_alicemod_primitive_capital = {
-	base_cap_amount = 1
+	base_cap_amount = 2
 	base_buildtime = 400
 	can_demolish = yes
 	can_be_ruined = no
@@ -321,7 +491,7 @@ building_alicemod_primitive_capital = {
 		planet_housing_add = 5
 		planet_amenities_add = 25
 		planet_crime_add = 4
-		planet_max_buildings_add = 1
+		planet_max_buildings_add = 2
 	}
 
 	upgrades = {
@@ -336,10 +506,44 @@ building_alicemod_primitive_capital = {
 			energy = 2
 		}
 	}
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_clerk_add = 1
+		}
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		modifier = {
+			job_maintenance_drone_add = 1
+		}
+	}
+	
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		text = job_maintenance_drone_effect_desc
+	}
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		text = job_clerk_effect_desc
+	}
 }
 
 building_alicemod_urban_dwellings = {
-	base_cap_amount = 4
+	base_cap_amount = 8
 	base_buildtime = 400
 	can_demolish = yes
 	can_be_ruined = no
@@ -355,7 +559,7 @@ building_alicemod_urban_dwellings = {
 		job_alicemod_primitive_researcher_2_add = 2
 		job_alicemod_primitive_priest_2_add = 2
 		planet_housing_add = 24
-		planet_crime_add = 2
+		planet_crime_add = 4
 	}
 
 	upgrades = {
