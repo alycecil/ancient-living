@@ -19,7 +19,7 @@ alicemod_hunter_gatherer = {
 		potential = {
 			always = yes
 		}
-		planet_amenities_add = 1
+		planet_amenities_add = 3
 		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
 	}
 
@@ -63,13 +63,13 @@ alicemod_peasant = {
 			trigger = {
 				is_lithoid = no
 			}
-			food = 2
+			food = 4
 		}
 		produces = {
 			trigger = {
 				is_lithoid = yes
 			}
-			minerals = 2
+			minerals = 4
 		}
 	}
 
@@ -96,8 +96,8 @@ alicemod_primitive_warrior = {
 	}
 	
 	planet_modifier = {
-		planet_crime_add = -1
-		planet_stability_add = 1
+		planet_crime_add = -2
+		planet_stability_add = 2
 	}
 
 	weight = {
@@ -140,7 +140,7 @@ alicemod_primitive_noble = {
 		planet_crime_add = -11
 		planet_stability_add = 1
 		job_alicemod_primitive_warrior_add = 2 
-		job_alicemod_peasant_add = 2
+		job_alicemod_peasant_add = 3
 		job_alicemod_primitive_bureaucrat_add = 1
 		job_alicemod_primitive_researcher_2_add = 1
 		job_alicemod_primitive_priest_2_add = 1
@@ -270,10 +270,10 @@ alicemod_primitive_laborer = {
 	resources = {
 		category = planet_artisans
 		produces = {
-			consumer_goods = 2
+			consumer_goods = 3
 		}
 		upkeep = {
-			minerals = 2
+			minerals = 3
 		}
 	}
 
@@ -352,7 +352,7 @@ alicemod_primitive_farmer = {
 	resources = {
 		category = planet_farmers
 		produces = {
-			food = 3
+			food = 4
 		}
 	}
 
@@ -458,6 +458,8 @@ alicemod_primitive_warrior_2 = {
 
 	pop_modifier = {
 		pop_defense_armies_add = 3
+		planet_crime_add = -2
+		planet_stability_add = 1
 	}
 
 	weight = {
