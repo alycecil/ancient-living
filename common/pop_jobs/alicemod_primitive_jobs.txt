@@ -5,6 +5,7 @@
 # Primitives
 
 alicemod_hunter_gatherer = {
+	icon = hunter_gatherer
 	category = worker
 	clothes_texture_index = 2
 
@@ -46,6 +47,7 @@ alicemod_hunter_gatherer = {
 }
 
 alicemod_peasant = {
+	icon = peasant
 	category = worker
 	building_icon = building_primitive_farm
 	clothes_texture_index = 2
@@ -79,6 +81,7 @@ alicemod_peasant = {
 }
 
 alicemod_primitive_warrior = {
+	icon = primitive_warrior
 	category = specialist
 	is_capped_by_modifier = yes
 	building_icon = building_primitive_dwellings
@@ -114,6 +117,7 @@ alicemod_primitive_warrior = {
 }
 
 alicemod_primitive_noble = {
+	icon = primitive_noble
 	category = ruler
 	is_capped_by_modifier = yes
 	building_icon = building_primitive_capital
@@ -173,6 +177,7 @@ alicemod_primitive_noble = {
 }
 
 alicemod_primitive_researcher = {
+	icon = primitive_researcher
 	category = specialist
 	is_capped_by_modifier = yes
 	building_icon = building_primitive_labs
@@ -208,6 +213,7 @@ alicemod_primitive_researcher = {
 }
 
 alicemod_primitive_priest = {
+	icon = primitive_priest
 	category = specialist
 	is_capped_by_modifier = yes
 	building_icon = building_temple
@@ -255,6 +261,7 @@ alicemod_primitive_priest = {
 }
 
 alicemod_primitive_laborer = {
+	icon = primitive_laborer
 	category = worker
 	is_capped_by_modifier = yes
 	building_icon = building_primitive_factory
@@ -285,6 +292,7 @@ alicemod_primitive_laborer = {
 }
 
 alicemod_primitive_miner = {
+	icon = primitive_miner
 	category = worker
 	is_capped_by_modifier = yes
 	building_icon = building_primitive_mine
@@ -311,6 +319,7 @@ alicemod_primitive_miner = {
 }
 
 alicemod_primitive_technician = {
+	icon = primitive_technician
 	category = worker
 	is_capped_by_modifier = yes
 	building_icon = building_primitive_power_plant
@@ -337,6 +346,7 @@ alicemod_primitive_technician = {
 }
 
 alicemod_primitive_farmer = {
+	icon = primitive_farmer
 	category = worker
 	is_capped_by_modifier = yes
 	building_icon = building_primitive_farm
@@ -362,6 +372,7 @@ alicemod_primitive_farmer = {
 }
 
 alicemod_primitive_researcher_2 = {
+	icon = primitive_researcher_2
 	category = specialist
 	is_capped_by_modifier = yes
 	building_icon = building_primitive_labs
@@ -397,6 +408,7 @@ alicemod_primitive_researcher_2 = {
 }
 
 alicemod_primitive_priest_2 = {
+	icon = primitive_priest_2
 	category = specialist
 	is_capped_by_modifier = yes
 	building_icon = building_temple
@@ -444,6 +456,7 @@ alicemod_primitive_priest_2 = {
 }
 
 alicemod_primitive_warrior_2 = {
+	icon = primitive_warrior_2
 	category = specialist
 	is_capped_by_modifier = yes
 	building_icon = building_residence
@@ -477,6 +490,7 @@ alicemod_primitive_warrior_2 = {
 
 
 alicemod_primitive_bureaucrat = {
+	icon = primitive_bureaucrat
 	category = ruler
 	is_capped_by_modifier = yes
 	building_icon = building_primitive_capital

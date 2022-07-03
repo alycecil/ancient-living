@@ -21,4 +21,77 @@
  building_alicemod_primitive_capital_desc:0 "An old form of living taken up when in need."
  building_alicemod_urban_dwellings:0 "Ancient Living City"
  building_alicemod_urban_dwellings_desc:0 "An old form of living taken up when in need."
+
+ ########################
+ ## Jobs
+ ##################
+ # Primitive Jobs
+ job_alicemod_hunter_gatherer:0 "Hunter-Gatherer"
+ job_alicemod_hunter_gatherer_plural:0 "Hunter-Gatherers"
+ job_alicemod_hunter_gatherer_desc:1 "These semi-nomadic primitives survive by foraging and hunting. There is evidence of early tool use."
+ mod_job_alicemod_hunter_gatherer_add:0 "$job_alicemod_hunter_gatherer$ Jobs"
+
+ job_alicemod_peasant:0 "Peasant"
+ job_alicemod_peasant_plural:0 "Peasants"
+ job_alicemod_peasant_desc:1 "The peasants toil endlessly in the fields, so that those perceived as their betters might prosper."
+ mod_job_alicemod_peasant_add:0 "$job_alicemod_peasant$ Jobs"
+
+ job_alicemod_primitive_warrior:0 "Primitive Warrior"
+ job_alicemod_primitive_warrior_plural:0 "Primitive Warriors"
+ job_alicemod_primitive_warrior_desc:1 "Members of a primitive warrior class. These fighters rely on bladed weapons, spears or various blunt instruments to see them through combat."
+ mod_job_alicemod_primitive_warrior_add:0 "$job_alicemod_primitive_warrior$ Jobs"
+
+ job_alicemod_primitive_noble:0 "Feudal Noble"
+ job_alicemod_primitive_noble_plural:0 "Feudal Nobles"
+ job_alicemod_primitive_noble_desc:1 "The landed nobility rule from their stone castles and keeps."
+ mod_job_alicemod_primitive_noble_add:0 "$job_alicemod_primitive_noble$ Jobs"
+
+ job_alicemod_primitive_researcher:0 "Scholar"
+ job_alicemod_primitive_researcher_plural:0 "Scholars"
+ job_alicemod_primitive_researcher_desc:1 "The learned of this society, often relying on oral tradition to pass knowledge between generations."
+ mod_job_alicemod_primitive_researcher_add:0 "$job_alicemod_primitive_researcher$ Jobs"
+
+ job_alicemod_primitive_priest:0 "Cleric"
+ job_alicemod_primitive_priest_plural:0 "Clerics"
+ job_alicemod_primitive_priest_desc:1 "Spiritual leaders and preachers who conduct religious ceremonies and oversee all matters concerning faith."
+ mod_job_alicemod_primitive_priest_add:0 "$job_alicemod_primitive_priest$ Jobs"
+
+ job_alicemod_primitive_laborer:0 "Primitive Laborer"
+ job_alicemod_primitive_laborer_plural:0 "Primitive Laborers"
+ job_alicemod_primitive_laborer_desc:1 "These early industrial laborers toil away in factories, which can now be operated day and night thanks to recent advances in electricity."
+ mod_job_alicemod_primitive_laborer_add:0 "$job_alicemod_primitive_laborer$ Jobs"
+
+ job_alicemod_primitive_miner:0 "Primitive Miner"
+ job_alicemod_primitive_miner_plural:0 "Primitive Miners"
+ job_alicemod_primitive_miner_desc:0 "Dangerous and sometimes lethal work in the dark bowels of the planet."
+ mod_job_alicemod_primitive_miner_add:0 "$job_alicemod_primitive_miner$ Jobs"
+
+ job_alicemod_primitive_technician:0 "Primitive Technician"
+ job_alicemod_primitive_technician_plural:0 "Primitive Technicians"
+ job_alicemod_primitive_technician_desc:0 "These technicians shuffle coal or maintain primitive nuclear generators."
+ mod_job_alicemod_primitive_technician_add:0 "$job_alicemod_primitive_technician$ Jobs"
  
+ job_alicemod_primitive_farmer:0 "Primitive Farmer"
+ job_alicemod_primitive_farmer_plural:0 "Primitive Farmers"
+ job_alicemod_primitive_farmer_desc:1 "These farmers work the land, typically with the help of primitive but effective farming equipment."
+ mod_job_alicemod_primitive_farmer_add:0 "$job_alicemod_primitive_farmer$ Jobs"
+
+ job_alicemod_primitive_researcher_2:0 "Researcher"
+ job_alicemod_primitive_researcher_2_plural:0 "Researchers"
+ job_alicemod_primitive_researcher_2_desc:1 "Researchers employing scientific methodology to advance the rapidly expanding knowledge base of their civilization."
+ mod_job_alicemod_primitive_researcher_2_add:0 "$job_alicemod_primitive_researcher_2$ Jobs"
+
+ job_alicemod_primitive_priest_2:0 "Priest"
+ job_alicemod_primitive_priest_2_plural:0 "Priests"
+ job_alicemod_primitive_priest_2_desc:1 "Religious leaders who occupy various priestly offices."
+ mod_job_alicemod_primitive_priest_2_add:0 "$job_alicemod_primitive_priest_2$ Jobs"
+
+ job_alicemod_primitive_warrior_2:0 "Soldier"
+ job_alicemod_primitive_warrior_2_plural:0 "Soldiers"
+ job_alicemod_primitive_warrior_2_desc:1 "Professional soldiers, typically armed with early projectile weapons powered by exothermic combustion."
+ mod_job_alicemod_primitive_warrior_2_add:0 "$job_alicemod_primitive_warrior_2$ Jobs"
+
+ job_alicemod_primitive_bureaucrat:0 "Bureaucrat"
+ job_alicemod_primitive_bureaucrat_plural:0 "Bureaucrats"
+ job_alicemod_primitive_bureaucrat_desc:1 "Many early industrialist and post-industrialist societies are governed by an ever-expanding class of civil servants."
+ mod_job_alicemod_primitive_bureaucrat_add:0 "$job_alicemod_primitive_bureaucrat$ Jobs"
