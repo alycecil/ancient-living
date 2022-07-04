@@ -36,8 +36,8 @@
  job_alicemod_peasant_desc:1 "The peasants toil endlessly in the fields, so that those perceived as their betters might prosper."
  mod_job_alicemod_peasant_add:0 "$job_alicemod_peasant$ Jobs"
 
- job_alicemod_primitive_warrior:0 "Primitive Warrior"
- job_alicemod_primitive_warrior_plural:0 "Primitive Warriors"
+ job_alicemod_primitive_warrior:0 "Knight"
+ job_alicemod_primitive_warrior_plural:0 "Knights"
  job_alicemod_primitive_warrior_desc:1 "Members of a primitive warrior class. These fighters rely on bladed weapons, spears or various blunt instruments to see them through combat."
  mod_job_alicemod_primitive_warrior_add:0 "$job_alicemod_primitive_warrior$ Jobs"
 
@@ -51,8 +51,8 @@
  job_alicemod_primitive_researcher_desc:1 "The learned of this society, often relying on oral tradition to pass knowledge between generations."
  mod_job_alicemod_primitive_researcher_add:0 "$job_alicemod_primitive_researcher$ Jobs"
 
- job_alicemod_primitive_priest:0 "Cleric"
- job_alicemod_primitive_priest_plural:0 "Clerics"
+ job_alicemod_primitive_priest:0 "Traditionalist Cleric"
+ job_alicemod_primitive_priest_plural:0 "Traditionalist Clerics"
  job_alicemod_primitive_priest_desc:1 "Spiritual leaders and preachers who conduct religious ceremonies and oversee all matters concerning faith."
  mod_job_alicemod_primitive_priest_add:0 "$job_alicemod_primitive_priest$ Jobs"
 
@@ -76,22 +76,34 @@
  job_alicemod_primitive_farmer_desc:1 "These farmers work the land, typically with the help of primitive but effective farming equipment."
  mod_job_alicemod_primitive_farmer_add:0 "$job_alicemod_primitive_farmer$ Jobs"
 
- job_alicemod_primitive_researcher_2:0 "Researcher"
- job_alicemod_primitive_researcher_2_plural:0 "Researchers"
+ job_alicemod_primitive_researcher_2:0 "Primitive Researcher"
+ job_alicemod_primitive_researcher_2_plural:0 "Primitive Researchers"
  job_alicemod_primitive_researcher_2_desc:1 "Researchers employing scientific methodology to advance the rapidly expanding knowledge base of their civilization."
  mod_job_alicemod_primitive_researcher_2_add:0 "$job_alicemod_primitive_researcher_2$ Jobs"
 
- job_alicemod_primitive_priest_2:0 "Priest"
- job_alicemod_primitive_priest_2_plural:0 "Priests"
+ job_alicemod_primitive_priest_2:0 "Traditionalist Priest"
+ job_alicemod_primitive_priest_2_plural:0 "Traditionalist Priests"
  job_alicemod_primitive_priest_2_desc:1 "Religious leaders who occupy various priestly offices."
  mod_job_alicemod_primitive_priest_2_add:0 "$job_alicemod_primitive_priest_2$ Jobs"
 
- job_alicemod_primitive_warrior_2:0 "Soldier"
- job_alicemod_primitive_warrior_2_plural:0 "Soldiers"
+ job_alicemod_primitive_warrior_2:0 "Post-Atomic Soldier"
+ job_alicemod_primitive_warrior_2_plural:0 "Post-Atomic Soldiers"
  job_alicemod_primitive_warrior_2_desc:1 "Professional soldiers, typically armed with early projectile weapons powered by exothermic combustion."
  mod_job_alicemod_primitive_warrior_2_add:0 "$job_alicemod_primitive_warrior_2$ Jobs"
 
- job_alicemod_primitive_bureaucrat:0 "Bureaucrat"
- job_alicemod_primitive_bureaucrat_plural:0 "Bureaucrats"
+ job_alicemod_primitive_bureaucrat:0 "Civil-Bureaucrat"
+ job_alicemod_primitive_bureaucrat_plural:0 "Civil-Bureaucrats"
  job_alicemod_primitive_bureaucrat_desc:1 "Many early industrialist and post-industrialist societies are governed by an ever-expanding class of civil servants."
  mod_job_alicemod_primitive_bureaucrat_add:0 "$job_alicemod_primitive_bureaucrat$ Jobs"
+
+ #############################
+ ## Armies
+ alicemod_primitive_army:0 "Primitive Army"
+ alicemod_primitive_army_plural:0 "Primitive Armies"
+ alicemod_primitive_army_desc:1 "A Primitive Army is little more than disorganized rabble equipped with whatever barbaric arms their world has managed to produce."
+ alicemod_industrial_army:0 "Industrial Army"
+ alicemod_industrial_army_plural:0 "Industrial Armies"
+ alicemod_industrial_army_desc:1 "An Industrial Army lacks the dynamic response capabilities of a modern force, but is nominally organized "
+ alicemod_postatomic_army:0 "Post-Atomic Army"
+ alicemod_postatomic_army_plural:0 "Post-Atomic Armies"
+ alicemod_postatomic_army_desc:1 "A Post-Atomic Army is well-equipped by primitive standards, and their training and discipline may sometimes rival even the hardiest of civilized martial forces."

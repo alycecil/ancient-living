@@ -1,0 +1,123 @@
+
+alicemod_primitive_army = {
+    has_species = yes
+    pop_limited = no
+    is_pop_spawned = yes
+	defensive = yes
+	damage = 0.6
+	health = 0.9
+	morale = 1.4
+	morale_damage = 3
+	war_exhaustion = 0.0
+	collateral_damage = 0.0
+	icon = GFX_army_type_primitive
+	use_armynames_from = primitive_army
+
+	potential = {
+        planet = {
+            OR = {
+                num_assigned_jobs = {
+                    job = alicemod_primitive_noble
+                    value >= 1
+                }
+                num_assigned_jobs = {
+                    job = alicemod_primitive_warrior
+                    value >= 1
+                }
+            }
+        }
+    }
+
+    resources = {
+        category = armies
+        produces = {
+            trigger = {
+                exists = owner
+                owner = { has_active_tradition = tr_unyielding_resistance_is_frugal }
+            }
+            unity = 0.5
+        }
+    }
+}
+
+alicemod_industrial_army = {
+    has_species = yes
+    pop_limited = no
+    is_pop_spawned = yes
+	defensive = yes
+	damage = 0.8
+	health = 0.95
+	morale = 1.2
+	morale_damage = 2
+	war_exhaustion = 0.0
+	collateral_damage = 0.0
+	icon = GFX_army_type_primitive
+	use_armynames_from = industrial_army
+
+	potential = {
+        planet = {
+            OR = {
+                num_assigned_jobs = {
+                    job = alicemod_primitive_noble
+                    value >= 2
+                }
+                num_assigned_jobs = {
+                    job = alicemod_primitive_warrior_2
+                    value >= 1
+                }
+            }
+        }
+    }
+
+    resources = {
+        category = armies
+        produces = {
+            trigger = {
+                exists = owner
+                owner = { has_active_tradition = tr_unyielding_resistance_is_frugal }
+            }
+            unity = 0.5
+        }
+    }
+}
+
+alicemod_postatomic_army = {
+    has_species = yes
+    pop_limited = no
+    is_pop_spawned = yes
+	defensive = yes
+	damage = 0.9
+	health = 1.0
+	morale = 1.2
+	morale_damage = 2
+	war_exhaustion = 0.0
+	collateral_damage = 0.0
+	icon = GFX_army_type_primitive
+	use_armynames_from = postatomic_army
+
+	potential = {
+        planet = {
+            OR = {
+                num_assigned_jobs = {
+                    job = alicemod_primitive_noble
+                    value >= 3
+                }
+                num_assigned_jobs = {
+                    job = alicemod_primitive_warrior_2
+                    value >= 1
+                }
+            }
+        }
+    }
+
+    resources = {
+        category = armies
+        produces = {
+            trigger = {
+                exists = owner
+                owner = { has_active_tradition = tr_unyielding_resistance_is_frugal }
+            }
+            unity = 0.5
+        }
+    }
+}

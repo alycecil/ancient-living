@@ -38,6 +38,9 @@ alicemod_hunter_gatherer = {
 			}
 			minerals = 1
 		}
+		produces = {
+		    consumer_goods = 0.06
+		}
 	}
 
 	weight = {
@@ -73,6 +76,9 @@ alicemod_peasant = {
 			}
 			minerals = 4
 		}
+		produces = {
+		    consumer_goods = 0.06
+		}
 	}
 
 	weight = {
@@ -82,7 +88,7 @@ alicemod_peasant = {
 
 alicemod_primitive_warrior = {
 	icon = primitive_warrior
-	category = specialist
+	category = worker
 	is_capped_by_modifier = yes
 	building_icon = building_primitive_dwellings
 	clothes_texture_index = 2
@@ -92,7 +98,7 @@ alicemod_primitive_warrior = {
 		is_sapient = yes
 	}
 
-	possible_precalc = can_fill_specialist_job
+	possible_precalc = can_fill_worker_job
 
 	pop_modifier = {
 		pop_defense_armies_add = 3
@@ -100,7 +106,14 @@ alicemod_primitive_warrior = {
 	
 	planet_modifier = {
 		planet_crime_add = -2
-		planet_stability_add = 2
+		planet_stability_add = 1
+	}
+
+	triggered_planet_modifier = {
+		modifier = {
+			planet_stability_add = 1
+		}
+		mult = planet.modifier:job_soldier_stability_add
 	}
 
 	weight = {
@@ -178,7 +191,7 @@ alicemod_primitive_noble = {
 
 alicemod_primitive_researcher = {
 	icon = primitive_researcher
-	category = specialist
+	category = worker
 	is_capped_by_modifier = yes
 	building_icon = building_primitive_labs
 	clothes_texture_index = 2
@@ -188,7 +201,7 @@ alicemod_primitive_researcher = {
 		is_sapient = yes
 	}
 
-	possible_precalc = can_fill_specialist_job
+	possible_precalc = can_fill_worker_job
 
 	resources = {
 		category = planet_researchers
@@ -200,13 +213,13 @@ alicemod_primitive_researcher = {
 	}
 
 	weight = {
-		weight = @specialist_job_weight
+		weight = @worker_job_weight
 		modifier = {
-			factor = 6
+			factor = 3
 			is_materialist = yes
 		}
 		modifier = {
-			factor = 0
+			factor = 0.1
 			is_spiritualist = yes
 		}
 	}
@@ -214,7 +227,7 @@ alicemod_primitive_researcher = {
 
 alicemod_primitive_priest = {
 	icon = primitive_priest
-	category = specialist
+	category = worker
 	is_capped_by_modifier = yes
 	building_icon = building_temple
 	clothes_texture_index = 3
@@ -224,7 +237,8 @@ alicemod_primitive_priest = {
 		is_sapient = yes
 	}
 
-	possible_precalc = can_fill_specialist_job
+
+	possible_precalc = can_fill_worker_job
 
 	resources = {
 		category = planet_jobs
@@ -247,7 +261,7 @@ alicemod_primitive_priest = {
 	}
 
 	weight = {
-		weight = @specialist_job_weight
+		weight = @worker_job_weight
 		mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
 		modifier = {
 			factor = 6
