@@ -11,6 +11,7 @@ building_alicemod_crude_huts = {
 	icon = building_crude_huts 
 
 	potential = {
+        owner = { is_ai = no }
 		owner = { is_regular_empire = yes }
 	}
 
@@ -20,7 +21,7 @@ building_alicemod_crude_huts = {
 		job_alicemod_hunter_gatherer_add = 4
 		planet_amenities_add = 5
 		planet_housing_add = 18
-		planet_crime_add = 5
+		planet_crime_add = 15
 		planet_max_buildings_add = 1
 	}
 
@@ -80,6 +81,7 @@ building_alicemod_primitive_dwellings = {
 	icon = building_primitive_dwellings
 	
 	potential = {
+        owner = { is_ai = no }
 		owner = { is_regular_empire = yes }
 	}
 	
@@ -155,10 +157,10 @@ building_alicemod_stone_palace = {
 		job_alicemod_primitive_warrior_add = 1
 		job_alicemod_primitive_researcher_add = 1
 		job_alicemod_primitive_priest_add = 1
-		planet_housing_add = 10
+		planet_housing_add = 15
 		planet_amenities_add = 25
 		planet_crime_add = 10
-		planet_max_buildings_add = 1
+		planet_max_buildings_add = 2
 	}
 
 	upgrades = {
@@ -223,8 +225,8 @@ building_alicemod_primitive_factory = {
 
 	planet_modifier = {
 		job_alicemod_primitive_noble_add = 1
-		job_alicemod_primitive_laborer_add = 6
-		planet_crime_add = 1
+		job_alicemod_primitive_laborer_add = 10
+		planet_crime_add = 5
 	}
 
 	upgrades = {
@@ -283,6 +285,7 @@ building_alicemod_primitive_mine = {
 	icon = building_primitive_mine 
 	
 	potential = {
+        owner = { is_ai = no }
 		owner = { is_regular_empire = yes }
 	}
 
@@ -347,6 +350,7 @@ building_alicemod_primitive_power_plant = {
 	icon = building_primitive_power_plant
 	
 	potential = {
+        owner = { is_ai = no }
 		owner = { is_regular_empire = yes }
 	}
 
@@ -412,6 +416,7 @@ building_alicemod_primitive_farm = {
 	icon = building_primitive_farm
 	
 	potential = {
+        owner = { is_ai = no }
 		owner = { is_regular_empire = yes }
 	}
 
@@ -485,9 +490,9 @@ building_alicemod_primitive_capital = {
 	planet_modifier = {
 		job_alicemod_primitive_noble_add = 1
 		job_alicemod_primitive_bureaucrat_add = 2
-		job_alicemod_primitive_warrior_2_add = 2
-		job_alicemod_primitive_researcher_2_add = 2
-		job_alicemod_primitive_priest_2_add = 2
+		job_alicemod_primitive_warrior_2_add = 1
+		job_alicemod_primitive_researcher_2_add = 1
+		job_alicemod_primitive_priest_2_add = 1
 		planet_housing_add = 5
 		planet_amenities_add = 25
 		planet_crime_add = 4
@@ -555,9 +560,10 @@ building_alicemod_urban_dwellings = {
 	
 	planet_modifier = {
 		job_alicemod_primitive_noble_add = 1
-		job_alicemod_primitive_bureaucrat_add = 3
-		job_alicemod_primitive_researcher_2_add = 2
-		job_alicemod_primitive_priest_2_add = 2
+		job_alicemod_primitive_bureaucrat_add = 1
+		job_alicemod_primitive_researcher_2_add = 1
+		job_alicemod_primitive_priest_2_add = 1
+		job_alicemod_primitive_warrior_2_add = 1
 		planet_housing_add = 24
 		planet_crime_add = 4
 	}
